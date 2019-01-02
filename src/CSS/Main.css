@@ -1,0 +1,55 @@
+.about-me {
+    background-color: #ebebec;
+ }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 15%;
+}
+
+.section > p {
+    max-width: 1000px;
+}
+
+.section > p > span {
+    font-weight: 500;
+}
+
+.sectionTitle {
+  width: 100%; 
+  text-align: center; 
+  line-height: 0.1em;
+  padding-bottom: 30px;
+  padding-top: 16px;
+} 
+
+.sectionTitle span:before,
+.sectionTitle span:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border-bottom: 2px solid black;
+  top: 0;
+  width: 20%;
+}
+
+.sectionTitle span {
+  display: inline-block;
+  position: relative;  
+  font-size: 1.6em;
+}
+
+.sectionTitle span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.sectionTitle span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.sectionTitle span { 
+   padding:0 10px; 
+}

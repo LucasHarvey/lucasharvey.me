@@ -37,7 +37,7 @@ body {
   width: 100%; 
   text-align: center; 
   line-height: 0.1em;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 } 
 
 .name span:before,
@@ -47,7 +47,7 @@ body {
   height: 5px;
   border-bottom: 2px solid white;
   top: 0;
-  width: 100px;
+  width: 20%;
 }
 
 .name span {
@@ -75,24 +75,19 @@ body {
   margin-right: 50px;
 }
 
-.contact > img {
+.contact > a > img {
   padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  display: flex;
+  margin: 15px 10%;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar > a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
-.about-me {
-  min-height: 400px;
-  background-color: #ebebec;
-}
