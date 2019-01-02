@@ -1,12 +1,27 @@
-.about-me {
-    background-color: #ebebec;
- }
-
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 15%;
+    padding: 50px 10%;
+}
+
+.lists {
+    display: flex;
+}
+
+.sectionContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subSection {
+    margin: 0px 50px;
+}
+
+.section:nth-child(odd){
+    background-color: #ebebec;
+ 
 }
 
 .section > p {
@@ -18,11 +33,12 @@
 }
 
 .sectionTitle {
-  width: 100%; 
   text-align: center; 
   line-height: 0.1em;
   padding-bottom: 30px;
   padding-top: 16px;
+  font-weight: 500;
+  font-size: 1.6em;
 } 
 
 .sectionTitle span:before,
@@ -32,24 +48,57 @@
   height: 0px;
   border-bottom: 2px solid black;
   top: 0;
-  width: 20%;
+  width: 50px;
 }
 
 .sectionTitle span {
   display: inline-block;
   position: relative;  
-  font-size: 1.6em;
 }
 
 .sectionTitle span:before {
-  right: 100%;
-  margin-right: 15px;
+    right: 100%;
+    margin-right: 15px;
 }
 .sectionTitle span:after {
-  left: 100%;
-  margin-left: 15px;
+    left: 100%;
+    margin-left: 15px;
 }
 
 .sectionTitle span { 
-   padding:0 10px; 
+    padding:0 10px; 
 }
+
+h3 {
+    color: #1c76e5;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .section {
+        padding: 50px 5%;
+    }
+    .sectionTitle span {
+        font-size: 0.8em;
+    }
+    .sectionTitle span { 
+        padding:0 0px!important; 
+     }
+
+     .sectionTitle span:before,
+     .sectionTitle span:after {
+        width: 20px;
+    }
+
+     .sectionTitle span:before {
+        margin-right: 10px!important;
+      }
+      .sectionTitle span:after {
+        margin-left: 10px!important;
+      }
+
+
+}
+
