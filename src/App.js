@@ -1,25 +1,43 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
+import resume from './Images/resume.png';
+import github from './Images/github.png';
+import linkedin from './Images/linkedin.png';
+import email from './Images/email.png';
+import Tab from '@material-ui/core/Tab';
+import Tabs from '@material-ui/core/Tabs';
 
 class App extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      value: 0
+    }
+  }
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p className="hello">Hi, I'm</p>
+          <p className="name"><span>Lucas Harvey</span></p>
+          <div className="contact">
+            <img src={resume}></img> 
+            <img src={github}></img> 
+            <img src={linkedin}></img>
+            <img src={email}></img>
+          </div>
         </header>
+        <Tabs  variant="fullWidth">
+          <Tab label="ABOUT ME" />
+          <Tab label="SKILLS" />
+          <Tab label="WORK" />
+          <Tab label="PROJECTS" />
+          <Tab label="BLOG" />
+          <Tab label="RESUME" />
+        </Tabs>
+        <div className="about-me">
+        </div>
       </div>
     );
   }
