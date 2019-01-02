@@ -12,8 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p className="hello">Hi, I'm</p>
-          <p className="name"><span>Lucas Harvey</span></p>
+          <div className="greeting">
+            <p className="hello">Hi, I'm</p>
+            <p className="name"><span>Lucas Harvey</span></p>
+          </div>
           <div className="contact">
             <a target="_blank" href={resume}><img src={resumeIcon}></img></a>
             <a target="_blank" href="https://github.com/LucasHarvey"><img src={githubIcon}></img></a> 

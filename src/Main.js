@@ -51,6 +51,9 @@ class App extends Component {
             </div>
         </div>
       </div>
+      <div className="section">
+        <h2 className="sectionTitle"><span>Here's what I've accomplished</span></h2>
+      </div>
      </div>
     );
   }

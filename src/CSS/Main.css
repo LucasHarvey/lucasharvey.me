@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 10%;
+    padding: 30px 10%;
 }
 
 .lists {
@@ -11,12 +11,11 @@
 
 .sectionContent {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 .subSection {
-    margin: 0px 50px;
+    margin: 0px 40px;
 }
 
 .section:nth-child(odd){
@@ -36,7 +35,7 @@
   text-align: center; 
   line-height: 0.1em;
   padding-bottom: 30px;
-  padding-top: 16px;
+  padding-top: 0px;
   font-weight: 500;
   font-size: 1.6em;
 } 
@@ -72,16 +71,15 @@
 h3 {
     color: #1c76e5;
     margin-bottom: 0px;
-    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
 
     .section {
-        padding: 50px 5%;
+        padding: 30px 5%;
     }
     .sectionTitle span {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     .sectionTitle span { 
         padding:0 0px!important; 
@@ -99,6 +97,9 @@ h3 {
         margin-left: 10px!important;
       }
 
+      h3 {
+          font-size: 1.0em;
+      }
 
 }
 
