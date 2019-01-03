@@ -1,0 +1,45 @@
+.accomplishments {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accomplishment {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.accomplishment-info {
+    flex-basis: 50%;
+    flex-grow: 1;
+    max-width: 500px;
+    margin: 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .accomplishment-info {
+        max-width: 80%;
+    }
+
+    .card {
+        margin: 20px!important;
+    }
+}
+
+.accomplishment-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #1c76e5;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: #d9d9d9 5px 5px;
+    margin: 20px 50px;
+}
