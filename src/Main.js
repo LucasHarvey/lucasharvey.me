@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './CSS/App.css';
 import './CSS/Main.css';
+import nexchange from './Images/nexchange.png';
 
 class App extends Component {
 
@@ -53,6 +54,7 @@ class App extends Component {
       </div>
       <div className="section">
         <h2 className="sectionTitle"><span>Here's what I've accomplished</span></h2>
+        <div className="card"><img src={nexchange}></img></div>
       </div>
      </div>
     );
