@@ -22,7 +22,7 @@ class App extends Component {
             I am now looking for internship opportunities starting in May 2019.</p>
        </div>
        <div className="section">
-        <h2 className="sectionTitle"><span>Here's what I have to offer</span></h2>
+        <h2 className="sectionTitle"><span>This is what I know</span></h2>
         <div className="sectionContent">
             <div className="subSection">
                 <h3><nobr>Programming languages</nobr></h3>
