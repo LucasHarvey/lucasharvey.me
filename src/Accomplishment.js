@@ -6,7 +6,7 @@ class Accomplishment extends Component {
         const {link, image, title, subtitle1, subtitle2, description} = this.props;
         return (
             <div className="accomplishment">
-                <a className="card" target="_blank" href={link}><img src={image}></img></a>
+                <a className="card" target="_blank" rel="noopener noreferrer" href={link}><img src={image}></img></a>
                 <div className="accomplishment-info">
                     <p className="accomplishment-title">{title}</p> 
                     <p className="accomplishment-subtitle1">{subtitle1}</p>

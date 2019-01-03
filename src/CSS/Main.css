@@ -1,8 +1,28 @@
+.button {
+    width: 100px;
+    height: 20px;
+    color: #1c76e5; 
+    background-color: transparent;
+    border: 1px #1c76e5 solid;
+    border-radius: 5px; 
+    text-decoration: none;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: rgba(28, 118, 229, 0.1);
+}
+
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 10%;
+    padding: 50px 10% 30px 10%;
+}
+
+.section > * {
+    margin: 20px 0px;
 }
 
 .lists {
@@ -70,7 +90,7 @@
 
 h3 {
     color: #1c76e5;
-    margin-bottom: 0px;
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -101,15 +121,3 @@ h3 {
           font-size: 1.0em;
       }
 }
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: #d9d9d9 5px 5px;
-}
-
