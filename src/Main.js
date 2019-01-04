@@ -9,6 +9,8 @@ import intellisports from './Images/intellisports.png';
 import visionlock from './Images/vision-lock.png';
 import climotion from './Images/cli-motion.png';
 import graphgen from './Images/graph-gen.png';
+import githubBlack from './Images/github-black.png';
+import linkedinBlue from './Images/linkedin-blue.png';
 
 class App extends Component {
 
@@ -16,7 +18,7 @@ class App extends Component {
     return (
         <div className="Main">
             <ScrollableAnchor id={'about-me'}>
-                <div className="about-me section">
+                <div className="about-me section off-white">
                 <h2 className="sectionTitle"><span>Get to know me</span></h2>
                 <p>I’m a Software Engineering student at the <span>University of Waterloo</span> and am passionate 
                     about programming, sports and entrepreneurship. 
@@ -65,7 +67,7 @@ class App extends Component {
                 </div>
             </ScrollableAnchor>
             <ScrollableAnchor id={'work'}>
-                <div className="section accomplishments merged-top">
+                <div className="section accomplishments merged-top off-white">
                     <h2 className="sectionTitle"><span>Here's what I've accomplished</span></h2>
                     <Accomplishment link="https://nexchange.ca" image={nexchange} title="Nexchange" subtitle1="Lead Developer and Founder" 
                     subtitle2="Montreal, QC" description="Founded a web-based mobile-friendly service that 
@@ -78,7 +80,7 @@ class App extends Component {
                 </div> 
             </ScrollableAnchor>
             <ScrollableAnchor id={'projects'}>
-                <div className="section merged-bottom"> 
+                <div className="section merged-bottom off-white"> 
                     <Accomplishment image={visionlock} title="VisionLock" subtitle1="Python, OpenCV, Dlib" 
                     subtitle2="" description="Developed a home security system capable of performing facial recognition, unlocking a door and greeting the resident with text to speech conversion." />    
                     <Accomplishment link="https://devpost.com/software/gitleap" image={climotion} title="CLIMotion" subtitle1="Hack the North 2018" 
@@ -87,6 +89,14 @@ class App extends Component {
                     subtitle2="" description="Developed a web-based mathematical graphing application capable of plotting points, drawing functions and determining the best linear fit for a given data set." /> 
                 </div> 
             </ScrollableAnchor>
+            <div className="section">
+                <h2 className="sectionTitle"><span>Let's connect</span></h2> 
+                <div className="connections">
+                    <a href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
+                    <a href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinBlue}></img></a> 
+                </div>
+                <p>Or, shoot me an email at <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top">lucas.harvey@uwaterloo.ca</a></p>
+            </div>
         </div>
     );
   }
