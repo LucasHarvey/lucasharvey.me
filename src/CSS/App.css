@@ -89,7 +89,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar > a {
+.navbar > * {
   cursor: pointer;
   text-decoration: none;
   color: black;

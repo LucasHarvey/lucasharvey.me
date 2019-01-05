@@ -5,6 +5,8 @@ import resumeIcon from './Images/resume.png';
 import githubIcon from './Images/github.png';
 import linkedinIcon from './Images/linkedin.png';
 import emailIcon from './Images/email.png';
+import { HashLink as Link } from 'react-router-hash-link';
+import Routing from './components/Routing.js';
 
 class App extends Component {
 
@@ -24,12 +26,13 @@ class App extends Component {
           </div>
         </header>
         <div  className="navbar">
-          <a href='#about-me'>ABOUT ME</a>
-          <a href='#skills'>SKILLS</a>
-          <a href='#work'>WORK</a>
-          <a href='#projects'>PROJECTS</a>
-          <a>BLOG</a>
+          <Link to='/#about-me' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>ABOUT ME</Link>
+          <Link to='/#skills' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>SKILLS</Link>
+          <Link to='/#work' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>WORK</Link>
+          <Link to='/#projects' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>PROJECTS</Link>
+          <Link to="/blog" scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>BLOG</Link>
         </div>
+        <Routing></Routing>
       </div>
     );
   }
