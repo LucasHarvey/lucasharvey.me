@@ -7,6 +7,8 @@ import linkedinIcon from './Images/linkedin.png';
 import emailIcon from './Images/email.png';
 import { HashLink as Link } from 'react-router-hash-link';
 import Routing from './components/Routing.js';
+import smoothscroll from 'smoothscroll-polyfill';
+smoothscroll.polyfill();
 
 class App extends Component {
 

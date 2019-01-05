@@ -92,8 +92,8 @@ class App extends Component {
             <div className="section">
                 <h2 className="sectionTitle"><span>Let's connect</span></h2> 
                 <div className="connections">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinBlue}></img></a> 
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
                 </div>
                 <p>Or, shoot me an email at <a className="email" href="mailto:lucas.harvey@uwaterloo.ca" target="_top">lucas.harvey@uwaterloo.ca</a></p>
                 <Link to='/#header' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>Back to top</Link>
