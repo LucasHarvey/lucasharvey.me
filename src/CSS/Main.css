@@ -93,9 +93,13 @@ h3 {
 }
 
 a {
-    color: #1c76e5;
     text-decoration: none;
     cursor: pointer;
+    color: black;
+}
+
+.email {
+    color: #1c76e5;
 }
 
 .connections {

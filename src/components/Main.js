@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../CSS/App.css';
 import '../CSS/Main.css';
+import { HashLink as Link } from 'react-router-hash-link';
 import Accomplishment from './Accomplishment';
 import resume from '../LucasHarveyResume.pdf';
 import nexchange from '../Images/nexchange.png';
@@ -94,7 +95,8 @@ class App extends Component {
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinBlue}></img></a> 
                 </div>
-                <p>Or, shoot me an email at <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top">lucas.harvey@uwaterloo.ca</a></p>
+                <p>Or, shoot me an email at <a className="email" href="mailto:lucas.harvey@uwaterloo.ca" target="_top">lucas.harvey@uwaterloo.ca</a></p>
+                <Link to='/#header' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>Back to top</Link>
             </div>
         </div>
     );

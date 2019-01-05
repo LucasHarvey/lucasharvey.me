@@ -13,7 +13,7 @@ class App extends Component {
  render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header id="header" className="App-header">
           <div className="greeting">
             <p className="hello">Hi, I'm</p>
             <p className="name"><span>Lucas Harvey</span></p>
@@ -30,7 +30,7 @@ class App extends Component {
           <Link to='/#skills' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>SKILLS</Link>
           <Link to='/#work' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>WORK</Link>
           <Link to='/#projects' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>PROJECTS</Link>
-          <Link to="/blog" scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>BLOG</Link>
+          <Link to="/blog#coming-soon" scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>BLOG</Link>
         </div>
         <Routing></Routing>
       </div>
