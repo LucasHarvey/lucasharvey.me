@@ -113,6 +113,37 @@ a {
     margin: 0px 25px;
 }
 
+.fadeIn {
+    animation-name: slide-up;
+    animation-duration: 4s;
+}
+
+.fadeInButton {
+    animation-name: slide-up-button;
+    animation-duration: 4s; 
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up-button {
+    from {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
 @media only screen and (max-width: 600px) {
 
     .section {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../CSS/App.css';
 import '../CSS/Main.css';
 import { HashLink as Link } from 'react-router-hash-link';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Accomplishment from './Accomplishment';
 import resume from '../LucasHarveyResume.pdf';
 import nexchange from '../Images/nexchange.png';
@@ -25,7 +26,9 @@ class App extends Component {
                     I am currently taking a course on <span>Machine Learning</span> and developing my mobile and 
                     web development skills by learning <span>iOS development</span> and <span>React.js</span>. 
                     I am now looking for internship opportunities starting in May 2019.</p>
+                <ScrollAnimation animateIn="fadeInButton" animateOnce>
                     <a target="_blank" rel="noopener noreferrer" className="button" href={resume}>View Resume</a>
+                </ScrollAnimation>
                </div>
             </div>
             <div id='skills'>
@@ -80,7 +83,7 @@ class App extends Component {
                 </div> 
             </div>
             <div id='projects'>
-                <div className="section merged-bottom off-white"> 
+                <div className="section accomplishments merged-bottom off-white animatedParent"> 
                     <Accomplishment image={visionlock} title="VisionLock" subtitle1="Python, OpenCV, Dlib" 
                     subtitle2="" description="Developed a home security system capable of performing facial recognition, unlocking a door and greeting the resident with text to speech conversion." />    
                     <Accomplishment link="https://devpost.com/software/gitleap" image={climotion} title="CLIMotion" subtitle1="Hack the North 2018" 
@@ -92,8 +95,12 @@ class App extends Component {
             <div className="section">
                 <h2 className="sectionTitle"><span>Let's connect</span></h2> 
                 <div className="connections">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinBlue}></img></a> 
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
+                    <ScrollAnimation animateIn="fadeIn" animateOnce>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinBlue}></img></a> 
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
+                    </ScrollAnimation>
                 </div>
                 <p>Or, shoot me an email at <a className="email" href="mailto:lucas.harvey@uwaterloo.ca" target="_top">lucas.harvey@uwaterloo.ca</a></p>
                 <Link to='/#header' scroll={el => el.scrollIntoView({behavior: 'smooth', block: 'start'})}>Back to top</Link>
