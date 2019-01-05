@@ -84,7 +84,7 @@ class App extends Component {
             </div>
             <div id='projects'>
                 <div className="section accomplishments merged-bottom off-white animatedParent"> 
-                    <Accomplishment image={visionlock} alt="VisionLock logo" title="VisionLock" subtitle1="Python, OpenCV, Dlib" 
+                    <Accomplishment link="https://www.youtube.com/watch?v=lnMbYg0ked8" image={visionlock} alt="VisionLock logo" title="VisionLock" subtitle1="Python, OpenCV, Dlib" 
                     subtitle2="" description="Developed a home security system capable of performing facial recognition, unlocking a door and greeting the resident with text to speech conversion." />    
                     <Accomplishment link="https://devpost.com/software/gitleap" image={climotion} alt="CLIMotion logo" title="CLIMotion" subtitle1="Hack the North 2018" 
                     subtitle2="JavaScript, Shell" description="Created the user interface for a project involving computer vision which allows users to interact with the command line using physical gestures." /> 
