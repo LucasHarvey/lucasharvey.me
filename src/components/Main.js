@@ -72,11 +72,11 @@ class App extends Component {
             <div id='work'>
                 <div className="section accomplishments merged-top off-white">
                     <h2 className="sectionTitle"><span>Here's what I've accomplished</span></h2>
-                    <Accomplishment link="https://nexchange.ca" image={nexchange} title="Nexchange" subtitle1="Lead Developer and Founder" 
+                    <Accomplishment link="https://nexchange.ca" image={nexchange} alt="Nexchange logo" title="Nexchange" subtitle1="Lead Developer and Founder" 
                     subtitle2="Montreal, QC" description="Founded a web-based mobile-friendly service that 
                     supports students with learning difficulties by providing them with class notes and saves 
                     an average of 15 hours per week of manual labour." />        
-                    <Accomplishment link="http://www.intellisports.xyz/" image={intellisports} title="Intellisports" subtitle1="Research Intern" 
+                    <Accomplishment link="http://www.intellisports.xyz/" image={intellisports} alt="Intellisports logo" title="Intellisports" subtitle1="Research Intern" 
                     subtitle2="Montreal, QC" description="Automated the data analysis of large data sets 
                     of sensor data using R Studio and discovered new findings regarding the motion of the 
                       curling stone never observed in the research community." />    
@@ -84,11 +84,11 @@ class App extends Component {
             </div>
             <div id='projects'>
                 <div className="section accomplishments merged-bottom off-white animatedParent"> 
-                    <Accomplishment image={visionlock} title="VisionLock" subtitle1="Python, OpenCV, Dlib" 
+                    <Accomplishment image={visionlock} alt="VisionLock logo" title="VisionLock" subtitle1="Python, OpenCV, Dlib" 
                     subtitle2="" description="Developed a home security system capable of performing facial recognition, unlocking a door and greeting the resident with text to speech conversion." />    
-                    <Accomplishment link="https://devpost.com/software/gitleap" image={climotion} title="CLIMotion" subtitle1="Hack the North 2018" 
+                    <Accomplishment link="https://devpost.com/software/gitleap" image={climotion} alt="CLIMotion logo" title="CLIMotion" subtitle1="Hack the North 2018" 
                     subtitle2="JavaScript, Shell" description="Created the user interface for a project involving computer vision which allows users to interact with the command line using physical gestures." /> 
-                    <Accomplishment link="https://github.com/LucasHarvey/GraphGEN" image={graphgen} title="GraphGEN" subtitle1="JavaScript, HTML, CSS" 
+                    <Accomplishment link="https://github.com/LucasHarvey/GraphGEN" image={graphgen} alt="GraphGEN logo" title="GraphGEN" subtitle1="JavaScript, HTML, CSS" 
                     subtitle2="" description="Developed a web-based mathematical graphing application capable of plotting points, drawing functions and determining the best linear fit for a given data set." /> 
                 </div> 
             </div>
@@ -96,10 +96,10 @@ class App extends Component {
                 <h2 className="sectionTitle"><span>Let's connect</span></h2> 
                 <div className="connections">
                     <ScrollAnimation animateIn="fadeIn" animateOnce>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinBlue}></img></a> 
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img alt="LinkedIn logo" src={linkedinBlue}></img></a> 
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeIn" animateOnce>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubBlack}></img></a> 
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img alt="GitHub logo" src={githubBlack}></img></a> 
                     </ScrollAnimation>
                 </div>
                 <p>Or, shoot me an email at <a className="email" href="mailto:lucas.harvey@uwaterloo.ca" target="_top">lucas.harvey@uwaterloo.ca</a></p>

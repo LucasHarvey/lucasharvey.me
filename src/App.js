@@ -21,10 +21,10 @@ class App extends Component {
             <p className="name"><span>Lucas Harvey</span></p>
           </div>
           <div className="contact">
-            <a target="_blank" rel="noopener noreferrer" href={resume}><img src={resumeIcon}></img></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img src={githubIcon}></img></a> 
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img src={linkedinIcon}></img></a>
-            <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top"><img src={emailIcon}></img></a>
+            <a target="_blank" rel="noopener noreferrer" href={resume}><img alt="resume icon" src={resumeIcon}></img></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img alt="GitHub logo" src={githubIcon}></img></a> 
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-harvey/"><img alt="LinkedIn logo" src={linkedinIcon}></img></a>
+            <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top"><img alt="email icon" src={emailIcon}></img></a>
           </div>
         </header>
         <div  className="navbar">
