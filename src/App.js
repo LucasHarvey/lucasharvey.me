@@ -16,10 +16,6 @@ class App extends Component {
     return (
       <div className="App">
         <header id="header" className="App-header">
-          <div className="greeting">
-            <p className="hello">Hi, I'm</p>
-            <p className="name"><span>Lucas Harvey</span></p>
-          </div>
           <div className="contact">
             <a target="_blank" rel="noopener noreferrer" href={resume}><img alt="resume icon" src={resumeIcon}></img></a>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/LucasHarvey"><img alt="GitHub logo" src={githubIcon}></img></a> 
