@@ -22,25 +22,6 @@ body {
   text-align: center;
 }
 
-.greeting {
-  margin-bottom: 70px;
-}
-
-/*
-@media only screen and (max-width: 1400px) {
-  .greeting {
-    margin-bottom: 15%!important;
-  }
-}
-*/
-
-@media screen and (min-device-aspect-ratio: 16/9) {
-  .greeting {
-    margin-bottom: 10px!important;
-  }
-}
-
-
 .hello {
   font-size: 1.6em;
   margin-bottom: 10px;
