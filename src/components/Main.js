@@ -78,7 +78,7 @@ class App extends Component {
                     an average of 15 hours per week of manual labour." />        
                     <Accomplishment link="http://www.intellisports.xyz/" image={intellisports} alt="Intellisports logo" title="Intellisports" subtitle1="Research Intern" 
                     subtitle2="Montreal, QC" description="Automated the data analysis of large data sets 
-                    of sensor data using R Studio and discovered new findings regarding the motion of the 
+                    of sensor data using linear regression in R Studio and discovered new findings regarding the motion of the 
                       curling stone never observed in the research community." />    
                 </div> 
             </div>
