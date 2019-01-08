@@ -22,6 +22,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-height: 600px) {
+  .App-header {
+    min-height: 600px;
+  }
+}
+
 .hello {
   font-size: 1.6em;
   margin-bottom: 10px;
