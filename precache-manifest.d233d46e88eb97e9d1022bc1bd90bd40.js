@@ -1,9 +1,5 @@
 self.__precacheManifest = [
   {
-    "revision": "6caed8990976c5cb6b3e1d99c9ac154b",
-    "url": "/static/media/me.6caed899.png"
-  },
-  {
     "revision": "d907449ba6ccd463bf234997549c6c44",
     "url": "/static/media/intellisports.d907449b.png"
   },
@@ -20,19 +16,19 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "c3c5d86bebb67a5fe6bb",
-    "url": "/static/js/main.c3c5d86b.chunk.js"
+    "revision": "b61bbda4b278af909fa6",
+    "url": "/static/js/main.b61bbda4.chunk.js"
   },
   {
     "revision": "0a211ea322d053ef7436",
     "url": "/static/js/1.0a211ea3.chunk.js"
   },
   {
-    "revision": "c3c5d86bebb67a5fe6bb",
-    "url": "/static/css/main.8c2c2a0b.chunk.css"
+    "revision": "b61bbda4b278af909fa6",
+    "url": "/static/css/main.e30c07ce.chunk.css"
   },
   {
-    "revision": "911cf24155cae7b3854e5a3bc78b3e3d",
+    "revision": "e35e0252910ce6f5070b4a7f05592356",
     "url": "/index.html"
   }
 ];
