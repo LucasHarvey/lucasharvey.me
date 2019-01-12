@@ -9,11 +9,7 @@ body {
 
 .App-header {
   display: flex;
-<<<<<<< HEAD
   background-image: url("../Images/me.png");
-=======
-  background-image: url("https://res.cloudinary.com/drsl505gx/image/upload/v1547247131/me.png");
->>>>>>> fc7b868bb398447fb90eeabd462d4a3832f81f22
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
