@@ -1,0 +1,143 @@
+.App {
+  font-family: Roboto;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 1.0em;
+}
+
+.App-header {
+  display: flex;
+  background-image: url("../Images/me.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-height: 600px) {
+  .App-header {
+    min-height: 600px;
+  }
+}
+
+.hello {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.name {
+  width: 100%; 
+  text-align: center; 
+  line-height: 0.1em;
+  margin-bottom: 30px;
+} 
+
+.name span:before,
+.name span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid white;
+  top: 0;
+  width: 20%;
+}
+
+.name span {
+  display: inline-block;
+  position: relative;  
+  font-size: 2.0em;
+  margin-top: 20px;
+}
+
+.name span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.name span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.name span { 
+   padding:0 10px; 
+}
+
+.contact {
+  align-self: flex-end;
+  padding-right: 50px;
+}
+
+.contact > a > img {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  padding: 15px 10%;
+  justify-content: space-between;
+}
+
+.navbar > * {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 400px) {
+ /*.App-header{
+  max-height: 700px;
+ }*/ 
+
+  .name span:before,
+  .name span:after {
+    width: 40px;
+  }
+
+  .name span:before {
+    right: 100%;
+    margin-right: 5px;
+  }
+  .name span:after {
+    left: 100%;
+    margin-left: 5px;
+  }
+
+}
+
+/*
+@media only screen and (max-width: 1000px) {
+  .App-header{
+    min-height: 0!important;
+    height: 600px!important;
+  }
+}
+*/
+@media only screen and (max-width: 600px) {
+
+  .contact {
+    align-self: center!important;
+    padding-right: 0px!important;
+  }
+
+  .navbar {
+    padding: 15px 15px!important;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+ .navbar > a {
+   font-size: 0.8em;
+ } 
+ .contact>a>img {
+   height: 25px;
+ }
+}
