@@ -100,7 +100,7 @@ class App extends Component {
               image={intellisports}
               alt="Intellisports logo"
               title="Intellisports"
-              subtitle1="Full Stack Software Engineer"
+              subtitle1="Full Stack Developer Intern"
               subtitle2="Montreal, QC"
               description="Developed the Playfitt Mobile App by adding new gamification features to increase user retention. Was responsible for the development of a leveling up
               feature to incentivize long-term user engagement."
