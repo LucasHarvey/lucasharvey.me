@@ -56,20 +56,21 @@ class App extends Component {
                 </h3>
                 <div className="lists">
                   <ul>
+                    <li>SQL</li>
+                    <li>PHP</li>
                     <li>
                       <nobr>Objective-C</nobr>
                     </li>
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>PHP</li>
-                    <li>MySQL</li>
                   </ul>
                   <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>C</li>
                     <li>Swift</li>
                     <li>Shell</li>
-                    <li>C</li>
-                    <li>Python</li>
                     <li>R</li>
                   </ul>
                 </div>
@@ -79,9 +80,13 @@ class App extends Component {
                   <nobr>Tools and Frameworks</nobr>
                 </h3>
                 <ul>
-                  <li>Expo</li>
-                  <li>Git</li>
                   <li>XCode</li>
+                  <li>MySQL</li>
+                  <li>Git</li>
+                  <li>
+                    <nobr>React Native</nobr>
+                  </li>
+                  <li>Expo</li>
                   <li>React.js</li>
                   <li>Apache</li>
                   <li>R Studio</li>
