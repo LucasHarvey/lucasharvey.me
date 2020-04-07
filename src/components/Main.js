@@ -13,6 +13,7 @@ import climotion from "../Images/cli-motion.png";
 import graphgen from "../Images/graph-gen.png";
 import githubBlack from "../Images/github-black.png";
 import linkedinBlue from "../Images/linkedin-blue.png";
+import round_headshot from "../Images/round_me.png";
 
 class App extends Component {
   render() {
@@ -23,6 +24,11 @@ class App extends Component {
             <h2 className="sectionTitle">
               <span>Get to know me</span>
             </h2>
+            <img
+              className="round-headshot"
+              src={round_headshot}
+              alt="Lucas Harvey"
+            ></img>
             <p>
               I am a Software Engineering student at the{" "}
               <span>University of Waterloo</span>, I grew up in Montreal and am
