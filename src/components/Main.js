@@ -31,19 +31,19 @@ class App extends Component {
               alt="Lucas Harvey"
             ></img>
             <p>
-              Studying <span>Computer Science</span> 👨‍💻 at the{" "}
+              Studying <span>Computer Science</span> at the{" "}
               <span>University of Waterloo</span>
               <br />
               From: <span>Montreal</span>, Canada 🇨🇦
               <br />
-              Passion: <span>Entrepreneurship</span> 🤓
+              Passion: <span>Entrepreneurship</span>
               <br />
-              Now mastering: <span>Machine Learning</span> 🤖
+              Now mastering: <span>Machine Learning</span>
               <br />
-              Current project: Tracking and analyzing my biometrics data 📈
+              Current project: Tracking and analyzing my biometrics data
               <br />
               Seeking internship opportunities starting in{" "}
-              <span>Fall 2020</span> 💼
+              <span>Fall 2020</span>
             </p>
             <ScrollAnimation animateIn="fadeInButton" animateOnce>
               <a
