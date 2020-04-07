@@ -7,6 +7,7 @@ import Accomplishment from "./Accomplishment";
 import resume from "../LucasHarveyResume.pdf";
 import partyfinder from "../Images/partyfinder.png";
 import nexchange from "../Images/nexchange.png";
+import wayfair from "../Images/wayfair.png";
 import intellisports from "../Images/intellisports.png";
 import visionlock from "../Images/vision-lock.png";
 import climotion from "../Images/cli-motion.png";
@@ -97,6 +98,15 @@ class App extends Component {
             <h2 className="sectionTitle">
               <span>Work Experience</span>
             </h2>
+            <Accomplishment
+              link="https://www.wayfair.com/"
+              image={wayfair}
+              alt="Wayfair logo"
+              title="Wayfair"
+              subtitle1="Software Engineer Intern"
+              subtitle2="Boston, MA"
+              description="Worked with the Machine Learning Platforms team to create a tool for the exploration of machine learning models, features and datasets. Improved performance of large-scale machine learning applications."
+            />
             <Accomplishment
               link="https://www.intellisports.ca/"
               image={intellisports}
