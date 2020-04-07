@@ -11,11 +11,16 @@
   height: 45px;
 }
 
-.custom-navbar-brand {
+.custom-navbar-brand > a {
   color: white;
   /* display: flex !important;
   align-items: center; */
-  font-size: 2em !important;
+  font-size: 1.6em !important;
+}
+
+.custom-navbar-brand > a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .custom-navbar {

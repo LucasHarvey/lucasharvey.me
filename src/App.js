@@ -18,7 +18,16 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar nav-expand-lg custom-navbar">
-          <div className="navbar-brand custom-navbar-brand">Lucas Harvey</div>
+          <div className="navbar-brand custom-navbar-brand">
+            <Link
+              to="/#about-me"
+              scroll={el =>
+                el.scrollIntoView({ behavior: "smooth", block: "start" })
+              }
+            >
+              Lucas Harvey
+            </Link>
+          </div>
           <Nav className="ml-auto sections">
             <Nav.Item className="nav-item">
               <Link
