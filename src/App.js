@@ -17,11 +17,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className="navbar nav-expand-lg navbar-light custom-navbar">
+        <nav className="navbar nav-expand-lg custom-navbar">
           <div className="navbar-brand custom-navbar-brand">Lucas Harvey</div>
-          <Nav className="ml-auto">
+          <Nav className="ml-auto sections">
             <Nav.Item className="nav-item">
               <Link
+                className="menu-item"
                 to="/#about-me"
                 scroll={el =>
                   el.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -32,6 +33,7 @@ class App extends Component {
             </Nav.Item>
             <Nav.Item className="nav-item">
               <Link
+                className="menu-item"
                 to="/#skills"
                 scroll={el =>
                   el.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -42,6 +44,7 @@ class App extends Component {
             </Nav.Item>
             <Nav.Item>
               <Link
+                className="menu-item"
                 to="/#work"
                 scroll={el =>
                   el.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -52,6 +55,7 @@ class App extends Component {
             </Nav.Item>
             <Nav.Item>
               <Link
+                className="menu-item"
                 to="/#projects"
                 scroll={el =>
                   el.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -60,6 +64,28 @@ class App extends Component {
                 PROJECTS
               </Link>
             </Nav.Item>
+            <div className="contact">
+              <a target="_blank" rel="noopener noreferrer" href={resume}>
+                <img alt="resume icon" src={resumeIcon} />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/LucasHarvey"
+              >
+                <img alt="GitHub logo" src={githubIcon} />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/lucas-harvey/"
+              >
+                <img alt="LinkedIn logo" src={linkedinIcon} />
+              </a>
+              <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top">
+                <img alt="email icon" src={emailIcon} />
+              </a>
+            </div>
           </Nav>
         </nav>
         {/* <div className="navbar">

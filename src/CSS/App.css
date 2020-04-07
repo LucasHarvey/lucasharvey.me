@@ -9,30 +9,29 @@ body {
 }
 
 .contact {
-  align-self: flex-start;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 .contact > a > img {
-  padding: 10px;
+  padding: 10px 20px 10px 0px;
+  height: 45px;
 }
 
 .custom-navbar-brand {
-  color: black;
-  display: flex !important;
-  align-items: center;
-  font-size: 25px !important;
+  color: white;
+  /* display: flex !important;
+  align-items: center; */
+  font-size: 2em !important;
 }
 
 .custom-navbar {
   position: fixed !important;
-  background-color: white;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1;
   box-shadow: 0 5px 10px #666666;
-  height: 69px;
+  min-height: 69px;
   background-color: #5497ea;
 }
 
@@ -41,44 +40,34 @@ body {
   align-items: center;
 }
 
-/* .navbar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  padding: 0px 10%;
-  height: 69px;
-  justify-content: space-between;
-  box-shadow: 0 5px 10px #666666;
-  background-color: #5497ea;
-  z-index: 1;
-} */
-
 .navbar > * {
   cursor: pointer;
   text-decoration: none;
-  color: black;
   font-weight: 500;
 }
 
-@media only screen and (max-width: 600px) {
-  .contact {
-    align-self: center !important;
-    padding-right: 0px !important;
-  }
+.menu-item {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+}
 
+.menu-item:hover {
+  text-decoration: none;
+  color: #1c76e5;
+}
+
+@media only screen and (max-width: 600px) {
   .navbar {
     padding: 15px 15px !important;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .navbar > a {
     font-size: 0.8em;
   }
-  .contact > a > img {
-    height: 25px;
+  .contact {
+    padding-left: 0;
   }
 }
