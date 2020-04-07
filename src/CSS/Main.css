@@ -1,63 +1,63 @@
 .button {
-    width: 100px;
-    height: 20px;
-    color: #1c76e5; 
-    background-color: transparent;
-    border: 1px #1c76e5 solid;
-    border-radius: 5px; 
-    text-decoration: none;
-    line-height: 20px;
-    padding: 10px;
+  width: 100px;
+  height: 20px;
+  color: #449680;
+  background-color: transparent;
+  border: 1px #449680 solid;
+  border-radius: 5px;
+  text-decoration: none;
+  line-height: 20px;
+  padding: 10px;
 }
 
 .button:hover {
-    background-color: rgba(28, 118, 229, 0.1);
+  background-color: rgba(87, 97, 87, 0.1);
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 10% 30px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10% 30px 10%;
 }
 
 .section > * {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .lists {
-    display: flex;
+  display: flex;
 }
 
 .sectionContent {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .subSection {
-    margin: 0px 40px;
+  margin: 0px 40px;
 }
 
-.off-white{
-    background-color: #ebebec;
+.off-white {
+  background-color: #ebebec;
 }
 
 .section > p {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 .section > p > span {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .sectionTitle {
-  text-align: center; 
+  text-align: center;
   line-height: 0.1em;
   padding-bottom: 30px;
   padding-top: 0px;
   font-weight: 500;
   font-size: 1.6em;
-} 
+}
 
 .sectionTitle span:before,
 .sectionTitle span:after {
@@ -71,104 +71,103 @@
 
 .sectionTitle span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 
 .sectionTitle span:before {
-    right: 100%;
-    margin-right: 15px;
+  right: 100%;
+  margin-right: 15px;
 }
 .sectionTitle span:after {
-    left: 100%;
-    margin-left: 15px;
+  left: 100%;
+  margin-left: 15px;
 }
 
-.sectionTitle span { 
-    padding:0 10px; 
+.sectionTitle span {
+  padding: 0 10px;
 }
 
 h3 {
-    color: #1c76e5;
-    margin: 0;
+  color: #449680;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 
 .email {
-    color: #1c76e5;
+  color: #449680;
 }
 
 .connections {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
 }
 
 .connections > * {
-    margin: 0px 25px;
+  margin: 0px 25px;
 }
 
 .fadeIn {
-    animation-name: slide-up;
-    animation-duration: 4s;
+  animation-name: slide-up;
+  animation-duration: 4s;
 }
 
 .fadeInButton {
-    animation-name: slide-up-button;
-    animation-duration: 4s; 
+  animation-name: slide-up-button;
+  animation-duration: 4s;
 }
 
 @keyframes slide-up {
-    from {
-        transform: translateY(40px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 @keyframes slide-up-button {
-    from {
-        transform: translateY(15px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 600px) {
+  .section {
+    padding: 30px 5%;
+  }
+  .sectionTitle span {
+    font-size: 0.7em;
+  }
+  .sectionTitle span {
+    padding: 0 0px !important;
+  }
 
-    .section {
-        padding: 30px 5%;
-    }
-    .sectionTitle span {
-        font-size: 0.7em;
-    }
-    .sectionTitle span { 
-        padding:0 0px!important; 
-     }
+  .sectionTitle span:before,
+  .sectionTitle span:after {
+    width: 20px;
+  }
 
-     .sectionTitle span:before,
-     .sectionTitle span:after {
-        width: 20px;
-    }
+  .sectionTitle span:before {
+    margin-right: 10px !important;
+  }
+  .sectionTitle span:after {
+    margin-left: 10px !important;
+  }
 
-     .sectionTitle span:before {
-        margin-right: 10px!important;
-      }
-      .sectionTitle span:after {
-        margin-left: 10px!important;
-      }
-
-      h3 {
-          font-size: 1.0em;
-      }
+  h3 {
+    font-size: 1em;
+  }
 }

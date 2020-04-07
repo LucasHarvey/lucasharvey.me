@@ -14,30 +14,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header id="header" className="App-header">
-          <div className="contact">
-            <a target="_blank" rel="noopener noreferrer" href={resume}>
-              <img alt="resume icon" src={resumeIcon} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/LucasHarvey"
-            >
-              <img alt="GitHub logo" src={githubIcon} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/lucas-harvey/"
-            >
-              <img alt="LinkedIn logo" src={linkedinIcon} />
-            </a>
-            <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top">
-              <img alt="email icon" src={emailIcon} />
-            </a>
-          </div>
-        </header>
         <div className="navbar">
           <Link
             to="/#about-me"
@@ -72,6 +48,30 @@ class App extends Component {
             PROJECTS
           </Link>
         </div>
+        <header id="header" className="App-header">
+          <div className="contact">
+            <a target="_blank" rel="noopener noreferrer" href={resume}>
+              <img alt="resume icon" src={resumeIcon} />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/LucasHarvey"
+            >
+              <img alt="GitHub logo" src={githubIcon} />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/lucas-harvey/"
+            >
+              <img alt="LinkedIn logo" src={linkedinIcon} />
+            </a>
+            <a href="mailto:lucas.harvey@uwaterloo.ca" target="_top">
+              <img alt="email icon" src={emailIcon} />
+            </a>
+          </div>
+        </header>
         <Routing />
       </div>
     );
