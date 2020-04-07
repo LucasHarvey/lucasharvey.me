@@ -31,13 +31,19 @@ class App extends Component {
               alt="Lucas Harvey"
             ></img>
             <p>
-              I am a Software Engineering student at the{" "}
-              <span>University of Waterloo</span>, I grew up in Montreal and am
-              passionate about entrepreneurship, programming, and sports. I am
-              currently working on a <span>React Native</span> app for
-              crowdsourcing local events and am interested in Machine Learning.
-              I am now looking for internship opportunities starting in January
-              2020.
+              Studying <span>Computer Science</span> 👨‍💻 at the{" "}
+              <span>University of Waterloo</span>
+              <br />
+              From: <span>Montreal</span>, Canada 🇨🇦
+              <br />
+              Passion: <span>Entrepreneurship</span> 🤓
+              <br />
+              Now mastering: <span>Machine Learning</span> 🤖
+              <br />
+              Current project: Tracking and analyzing my biometrics data 📈
+              <br />
+              Seeking internship opportunities starting in{" "}
+              <span>Fall 2020</span> 💼
             </p>
             <ScrollAnimation animateIn="fadeInButton" animateOnce>
               <a
