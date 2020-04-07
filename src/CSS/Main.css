@@ -1,5 +1,5 @@
 .round-headshot {
-  width: 200px;
+  width: 250px;
 }
 
 .anchor {
@@ -127,12 +127,12 @@ a {
 
 .fadeIn {
   animation-name: slide-up;
-  animation-duration: 4s;
+  animation-duration: 6s;
 }
 
 .fadeInButton {
   animation-name: slide-up-button;
-  animation-duration: 4s;
+  animation-duration: 6s;
 }
 
 @keyframes slide-up {

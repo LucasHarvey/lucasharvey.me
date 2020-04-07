@@ -1,14 +1,7 @@
 .accomplishments {
   flex-direction: column;
   justify-content: center;
-}
-
-.merged-top {
-  padding-bottom: 0;
-}
-
-.merged-bottom {
-  padding-top: 0;
+  padding-bottom: 0px;
 }
 
 .accomplishment {
@@ -21,17 +14,13 @@
 .accomplishment-info {
   flex-basis: 50%;
   flex-grow: 1;
-  max-width: 500px;
-  margin: 5px 0px;
+  max-width: 540px;
+  margin: 0px;
 }
 
 @media only screen and (max-width: 600px) {
   .accomplishment {
     margin: 0px !important;
-  }
-
-  .card {
-    margin: 5px 0px !important;
   }
 }
 
@@ -50,7 +39,7 @@
   min-height: 250px;
   border-radius: 10px;
   box-shadow: #d9d9d9 5px 5px;
-  margin: 5px 50px;
+  margin: 5px 50px 20px 50px;
 }
 
 .card:hover {

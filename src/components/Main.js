@@ -38,7 +38,7 @@ class App extends Component {
               <br />
               Passion: <span>Entrepreneurship</span>
               <br />
-              Learning about: <span>Machine Learning</span>
+              Interested in: <span>Machine Learning</span>
               <br />
               Current project: Tracking and analyzing my biometrics data
               <br />
@@ -81,12 +81,12 @@ class App extends Component {
                   <nobr>I have worked with: </nobr>
                 </span>
                 <span> Flask </span>
+                <span className="element"> React.js </span>
+                <span className="element"> Git </span>
                 <span className="element"> Apache Airflow </span>
                 <span className="element"> Hive </span>
-                <span className="element"> React.js </span>
-                <span className="element"> React Native </span>
-                <span className="element"> Git </span>
                 <span className="element"> Docker </span>
+                <span className="element"> React Native </span>
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ class App extends Component {
         <div>
           <div className="section accomplishments merged-top off-white">
             <h2 className="sectionTitle">
-              <span>Here's what I've accomplished</span>
+              <span>Work Experience</span>
             </h2>
             <Accomplishment
               link="https://www.intellisports.ca/"
@@ -123,6 +123,9 @@ class App extends Component {
         <a id="projects" className="anchor"></a>
         <div>
           <div className="section accomplishments merged-bottom off-white animatedParent">
+            <h2 className="sectionTitle">
+              <span>Projects</span>
+            </h2>
             <Accomplishment
               link="https://partyfinder.ca/"
               image={partyfinder}
@@ -130,8 +133,8 @@ class App extends Component {
               title="PartyFinder"
               subtitle1="Developer and Co-Founder"
               subtitle2="Waterloo, ON"
-              description="PartyFinder is a mobile app built in React Native that allows you to spot and discover parties and events near you. Get the location 
-              and live ratings before you get there! Launching on September 1st on the App Store and Google Play Store."
+              description="PartyFinder is a crowdsourced mobile app built in React Native that allows you to spot and discover parties and events near you.
+              Amassed 5,000+ downloads and 1,000 Weekly Active Users."
             />
             <Accomplishment
               link="https://www.youtube.com/watch?v=lnMbYg0ked8"
@@ -201,10 +204,10 @@ class App extends Component {
             Or, shoot me an email at{" "}
             <a
               className="email"
-              href="mailto:lucas.harvey@uwaterloo.ca"
+              href="mailto:lucas.harvey10@gmail.com"
               target="_top"
             >
-              lucas.harvey@uwaterloo.ca
+              lucas.harvey10@gmail.com
             </a>
           </p>
           <Link
