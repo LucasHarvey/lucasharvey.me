@@ -45,15 +45,6 @@
   display: flex;
 }
 
-.sectionContent {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.subSection {
-  margin: 0px 40px;
-}
-
 .off-white {
   background-color: #f5f5f5;
 }
@@ -103,9 +94,14 @@
   padding: 0 10px;
 }
 
-h3 {
+.section-subtitle {
+  font-size: 1.2em;
+  font-weight: 600;
   color: #1c76e5;
-  margin: 0;
+}
+
+.element:before {
+  content: "\2022";
 }
 
 a {

@@ -34,11 +34,11 @@ class App extends Component {
               Studying <span>Computer Science</span> at the{" "}
               <span>University of Waterloo</span>
               <br />
-              From: <span>Montreal</span>, Canada 🇨🇦
+              From: <span>Montreal</span>, Canada
               <br />
               Passion: <span>Entrepreneurship</span>
               <br />
-              Now mastering: <span>Machine Learning</span>
+              Learning about: <span>Machine Learning</span>
               <br />
               Current project: Tracking and analyzing my biometrics data
               <br />
@@ -64,48 +64,30 @@ class App extends Component {
               <span>This is what I know</span>
             </h2>
             <div className="sectionContent">
-              <div className="subSection">
-                <h3>
-                  <nobr>Programming languages</nobr>
-                </h3>
-                <div className="lists">
-                  <ul>
-                    <li>SQL</li>
-                    <li>PHP</li>
-                    <li>
-                      <nobr>Objective-C</nobr>
-                    </li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                  </ul>
-                  <ul>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>C</li>
-                    <li>Swift</li>
-                    <li>Shell</li>
-                    <li>R</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="subSection">
-                <h3>
-                  <nobr>Tools and Frameworks</nobr>
-                </h3>
-                <ul>
-                  <li>XCode</li>
-                  <li>MySQL</li>
-                  <li>Git</li>
-                  <li>
-                    <nobr>React Native</nobr>
-                  </li>
-                  <li>Expo</li>
-                  <li>React.js</li>
-                  <li>Apache</li>
-                  <li>R Studio</li>
-                </ul>
-              </div>
+              <p>
+                <span className="section-subtitle">
+                  <nobr>I am fluent in: </nobr>
+                </span>
+                <span> Python </span>
+                <span className="element"> SQL </span>
+                <span className="element"> JavaScript </span>
+                <span className="element"> HTML </span>
+                <span className="element"> CSS </span>
+                <span className="element"> C/C++/Objective-C </span>
+                <span className="element"> PHP </span>
+              </p>
+              <p>
+                <span className="section-subtitle">
+                  <nobr>I have worked with: </nobr>
+                </span>
+                <span> Flask </span>
+                <span className="element"> Apache Airflow </span>
+                <span className="element"> Hive </span>
+                <span className="element"> React.js </span>
+                <span className="element"> React Native </span>
+                <span className="element"> Git </span>
+                <span className="element"> Docker </span>
+              </p>
             </div>
           </div>
         </div>
