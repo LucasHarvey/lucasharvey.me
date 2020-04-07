@@ -19,7 +19,8 @@ class App extends Component {
   render() {
     return (
       <div className="Main">
-        <div id="about-me">
+        <a id="about-me" className="anchor"></a>
+        <div className="about-me-section">
           <div className="about-me section off-white">
             <h2 className="sectionTitle">
               <span>Get to know me</span>
@@ -50,7 +51,8 @@ class App extends Component {
             </ScrollAnimation>
           </div>
         </div>
-        <div id="skills">
+        <a id="skills" className="anchor"></a>
+        <div>
           <div className="section">
             <h2 className="sectionTitle">
               <span>This is what I know</span>
@@ -101,7 +103,8 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div id="work">
+        <a id="work" className="anchor"></a>
+        <div>
           <div className="section accomplishments merged-top off-white">
             <h2 className="sectionTitle">
               <span>Here's what I've accomplished</span>
@@ -129,7 +132,8 @@ class App extends Component {
             />
           </div>
         </div>
-        <div id="projects">
+        <a id="projects" className="anchor"></a>
+        <div>
           <div className="section accomplishments merged-bottom off-white animatedParent">
             <Accomplishment
               link="https://partyfinder.ca/"
@@ -216,7 +220,7 @@ class App extends Component {
             </a>
           </p>
           <Link
-            to="/#header"
+            to="/#about-me"
             scroll={el =>
               el.scrollIntoView({ behavior: "smooth", block: "start" })
             }

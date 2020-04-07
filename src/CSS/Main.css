@@ -2,6 +2,17 @@
   width: 200px;
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+.about-me-section {
+  padding-top: 70px;
+}
+
 .button {
   width: 100px;
   height: 20px;
@@ -16,6 +27,7 @@
 
 .button:hover {
   background-color: rgba(28, 118, 229, 0.1);
+  text-decoration: none;
 }
 
 .section {
@@ -148,6 +160,25 @@ a {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .about-me-section {
+    padding-top: 120px;
+  }
+  .anchor {
+    top: -120px !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .about-me-section {
+    padding-top: 143px;
+  }
+  .anchor {
+    top: -143px !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .section {
     padding: 30px 5%;
