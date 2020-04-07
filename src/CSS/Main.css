@@ -1,9 +1,9 @@
 .button {
   width: 100px;
   height: 20px;
-  color: #449680;
+  color: #1c76e5;
   background-color: transparent;
-  border: 1px #449680 solid;
+  border: 1px #1c76e5 solid;
   border-radius: 5px;
   text-decoration: none;
   line-height: 20px;
@@ -11,7 +11,7 @@
 }
 
 .button:hover {
-  background-color: rgba(87, 97, 87, 0.1);
+  background-color: rgba(28, 118, 229, 0.1);
 }
 
 .section {
@@ -88,7 +88,7 @@
 }
 
 h3 {
-  color: #449680;
+  color: #1c76e5;
   margin: 0;
 }
 
@@ -99,7 +99,7 @@ a {
 }
 
 .email {
-  color: #449680;
+  color: #1c76e5;
 }
 
 .connections {
