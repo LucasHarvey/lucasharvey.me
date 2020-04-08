@@ -11,9 +11,19 @@ import Nav from "react-bootstrap/Nav";
 import { HashLink as Link } from "react-router-hash-link";
 import Routing from "./components/Routing.js";
 import smoothscroll from "smoothscroll-polyfill";
+import ReactGA from "react-ga";
 smoothscroll.polyfill();
 
 class App extends Component {
+  componentDidMount = () => {
+    const trackingId = "UA-163109911-1";
+    ReactGA.initialize(trackingId);
+    ReactGA.event({
+      category: "Page load",
+      action: "User loaded main page"
+    });
+  };
+
   render() {
     return (
       <div className="App">

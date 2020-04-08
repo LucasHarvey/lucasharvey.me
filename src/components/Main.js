@@ -15,6 +15,7 @@ import graphgen from "../Images/graph-gen.png";
 import githubBlack from "../Images/github-black.png";
 import linkedinBlue from "../Images/linkedin-blue.png";
 import round_headshot from "../Images/round_me.png";
+import ReactGA from "react-ga";
 
 class App extends Component {
   render() {
@@ -52,6 +53,12 @@ class App extends Component {
                 rel="noopener noreferrer"
                 className="button"
                 href={resume}
+                onClick={() =>
+                  ReactGA.event({
+                    category: "Button Click",
+                    action: "User clicked on View Resume"
+                  })
+                }
               >
                 View Resume
               </a>
