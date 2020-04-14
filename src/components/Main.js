@@ -83,18 +83,21 @@ class App extends Component {
                 <span className="element"> CSS </span>
                 <span className="element"> C/C++/Objective-C </span>
                 <span className="element"> PHP </span>
+                <span className="element"> Scala </span>
               </p>
               <p>
                 <span className="section-subtitle">
                   <nobr>I have worked with: </nobr>
                 </span>
                 <span> Flask </span>
-                <span className="element"> React.js </span>
-                <span className="element"> Git </span>
-                <span className="element"> Apache Airflow </span>
+                <span className="element"> React </span>
+                <span className="element"> Airflow </span>
                 <span className="element"> Hive </span>
                 <span className="element"> Docker </span>
                 <span className="element"> React Native </span>
+                <span className="element"> XCode </span>
+                <span className="element"> R Studio </span>
+                <span className="element"> Git </span>
               </p>
             </div>
           </div>
@@ -112,7 +115,7 @@ class App extends Component {
               title="Wayfair"
               subtitle1="Software Engineer Intern"
               subtitle2="Boston, MA"
-              description="Worked with the Machine Learning Platforms team to create a tool for the exploration of machine learning models, features and datasets. Improved performance of large-scale machine learning applications."
+              description="Worked with the Machine Learning Platforms team to improve the performance of large-scale machine learning applications. Spearheaded the development of a microservice for the creation of ML models, features and datasets."
             />
             <Accomplishment
               link="https://www.intellisports.ca/"
