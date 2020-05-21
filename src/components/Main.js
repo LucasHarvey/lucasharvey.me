@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="Main">
-        <a id="about-me" className="anchor"></a>
+        <a id="about-me" className="anchor" />
         <div className="about-me-section">
           <div className="about-me section off-white">
             <h2 className="sectionTitle">
@@ -31,7 +31,7 @@ class App extends Component {
               className="round-headshot"
               src={round_headshot}
               alt="Lucas Harvey"
-            ></img>
+            />
             <p>
               Studying <span>Computer Science</span> at the{" "}
               <span>University of Waterloo</span>
@@ -56,7 +56,7 @@ class App extends Component {
                 onClick={() =>
                   ReactGA.event({
                     category: "Button Click",
-                    action: "User clicked on View Resume"
+                    action: "User clicked on View Resume",
                   })
                 }
               >
@@ -65,13 +65,13 @@ class App extends Component {
             </ScrollAnimation>
           </div>
         </div>
-        <a id="skills" className="anchor"></a>
+        <a id="skills" className="anchor" />
         <div>
           <div className="section">
             <h2 className="sectionTitle">
               <span>This is what I know</span>
             </h2>
-            <div className="sectionContent">
+            <div className="sectionContsent">
               <p>
                 <span className="section-subtitle">
                   <nobr>I am fluent in: </nobr>
@@ -83,7 +83,8 @@ class App extends Component {
                 <span className="element"> CSS </span>
                 <span className="element"> C/C++/Objective-C </span>
                 <span className="element"> PHP </span>
-                <span className="element"> Scala </span>
+                <span className="element"> MATLAB </span>
+                <span className="element"> R </span>
               </p>
               <p>
                 <span className="section-subtitle">
@@ -97,12 +98,13 @@ class App extends Component {
                 <span className="element"> React Native </span>
                 <span className="element"> XCode </span>
                 <span className="element"> R Studio </span>
+                <span className="element"> Jupyters </span>
                 <span className="element"> Git </span>
               </p>
             </div>
           </div>
         </div>
-        <a id="work" className="anchor"></a>
+        <a id="work" className="anchor" />
         <div>
           <div className="section accomplishments merged-top off-white">
             <h2 className="sectionTitle">
@@ -140,7 +142,7 @@ class App extends Component {
             />
           </div>
         </div>
-        <a id="projects" className="anchor"></a>
+        <a id="projects" className="anchor" />
         <div>
           <div className="section accomplishments merged-bottom off-white animatedParent">
             <h2 className="sectionTitle">
@@ -232,7 +234,7 @@ class App extends Component {
           </p>
           <Link
             to="/#about-me"
-            scroll={el =>
+            scroll={(el) =>
               el.scrollIntoView({ behavior: "smooth", block: "start" })
             }
           >
