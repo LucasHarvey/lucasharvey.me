@@ -98,7 +98,7 @@ class App extends Component {
                 <span className="element"> React Native </span>
                 <span className="element"> XCode </span>
                 <span className="element"> R Studio </span>
-                <span className="element"> Jupyters </span>
+                <span className="element"> Jupyter </span>
                 <span className="element"> Git </span>
               </p>
             </div>
