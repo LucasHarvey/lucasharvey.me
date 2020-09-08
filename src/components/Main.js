@@ -7,6 +7,7 @@ import Accomplishment from "./Accomplishment";
 import resume from "../LucasHarveyResume.pdf";
 import partyfinder from "../Images/partyfinder.png";
 import nexchange from "../Images/nexchange.png";
+import bloomberg from "../Images/bloomberg.png";
 import wayfair from "../Images/wayfair.png";
 import intellisports from "../Images/intellisports.png";
 import visionlock from "../Images/vision-lock.png";
@@ -42,10 +43,10 @@ class App extends Component {
               <br />
               Interested in: <span>Machine Learning</span>
               <br />
-              Current project: Tracking and analyzing my biometrics data
+              Current project: <span>Stock Prediction</span> using ML and
+              company fundamentals
               <br />
-              Seeking internship opportunities starting in{" "}
-              <span>Fall 2020</span>
+              Open to internship opportunities starting in <span>May 2021</span>
             </p>
             <ScrollAnimation animateIn="fadeInButton" animateOnce>
               <a
@@ -110,6 +111,15 @@ class App extends Component {
             <h2 className="sectionTitle">
               <span>Work Experience</span>
             </h2>
+            <Accomplishment
+              link="https://www.bloomberg.com/"
+              image={bloomberg}
+              alt="Bloomberg logo"
+              title="Bloomberg"
+              subtitle1="Software Engineer Intern"
+              subtitle2="New York City, NY"
+              description="Currently working with the Assets and Investments Trade Management team on post-trade workflow prediction."
+            />
             <Accomplishment
               link="https://www.wayfair.com/"
               image={wayfair}
@@ -177,7 +187,7 @@ class App extends Component {
               description="Created the user interface for a project involving computer vision which allows users to interact with the command line using physical gestures."
             />
             <Accomplishment
-              link="https://nexchange.ca"
+              link="https://lucasharvey.github.io/nexchange-website/"
               image={nexchange}
               alt="Nexchange logo"
               title="Nexchange"
