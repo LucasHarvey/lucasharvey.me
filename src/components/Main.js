@@ -10,6 +10,8 @@ import nexchange from "../Images/nexchange.png";
 import bloomberg from "../Images/bloomberg.png";
 import wayfair from "../Images/wayfair.png";
 import intellisports from "../Images/intellisports.png";
+import stock_trend from "../Images/stock_trend.png";
+import reachmoreonline from "../Images/reachmoreonline.png";
 import visionlock from "../Images/vision-lock.png";
 import climotion from "../Images/cli-motion.png";
 import graphgen from "../Images/graph-gen.png";
@@ -158,6 +160,22 @@ class App extends Component {
             <h2 className="sectionTitle">
               <span>Projects</span>
             </h2>
+            <Accomplishment
+              link="https://github.com/LucasHarvey/StockTrend/"
+              image={stock_trend}
+              alt="StockTrend logo"
+              title="StockTrend"
+              subtitle1="Python, sklearn, pandas"
+              description="StockTrend uses fundamental data about companies (P/E ratio, D/E ratio, etc.) and machine learning to predict whether a company will outperform or underperform the S&P 500."
+            />
+            <Accomplishment
+              link="https://reachmoreonline.com"
+              image={reachmoreonline}
+              alt="ReachMoreOnline logo"
+              title="ReachMoreOnline"
+              subtitle1="Shopify, React, Heroku"
+              description="ReachMoreOnline is an e-commerce agency that helps small businesses transition to online sales. Faced with the physical limitations of the pandemic, we set out to help small business thrive by selling their products online."
+            />
             <Accomplishment
               link="https://partyfinder.ca/"
               image={partyfinder}
